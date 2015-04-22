@@ -5,22 +5,22 @@ c <- makeCacheMatrix(m)
 
 c$get()
 
-c$getSolve()
+c$getInverse()
 
 cacheSolve(c)
 
 cacheSolve(c)
 
-c$getSolve()
+c$getInverse()
 
 c$set(matrix(5:8, 2, 2))
 
 c$get()
 
-c$getSolve()
+c$getInverse()
 
 cacheSolve(c)
 
 cacheSolve(c)
 
-c$getSolve()
+c$getInverse()
